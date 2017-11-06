@@ -67,9 +67,9 @@ int main()
     }
     
     // PRINTING OUT GUESS OF X-INTERCEPT ACCURATE TO 4 DECIMAL PLACES
-    cout << "My guess for a root of ";
+    cout << "I found the closest x-intercept!!! It is ";
     print_equation_no_endl(coefficient_4th_exponent, coefficient_3th_exponent, coefficient_2th_exponent, coefficient_1th_exponent, coefficient_0th_exponent);
-    cout << " is " << x2 << ". This guess is accurate to 4 decimal places.\n";
+    cout << " is " << x2 << ". This guess is EXTREMELY ACCURATE to the 4th decimal point.\n";
     
     
     
@@ -78,16 +78,16 @@ int main()
 
 void user_input(int & a, int & b, int & c, int & d, int & e)
 {
-    cout << "This program takes in 4 coefficients of a polynomial expression of the 4th degree and an initial guess of one of this equations's x-intercepts. It will then output an \"improved guess\" accurate to 4 decimal points of that x-intercept.\n\n";
-    cout << "What is the coefficient for x^4?:\n";
+    cout << "This program takes in 4 coefficients of a polynomial expression of the 4th degree and an initial guess of one of this equations's x-intercepts. It will then output an \"improved guess\" accurate to 4 decimal points of that x-intercept using Newton's Method.\n\n";
+    cout << "Slam in the coefficient for x^4?:\n";
     cin >> a;
-    cout << "\nWhat is the coefficient for x^3?:\n";
+    cout << "\nDrop in that coefficient for x^3?:\n";
     cin >> b;
-    cout << "\nWhat is the coefficient for x^2?:\n";
+    cout << "\nKey in the coefficient for x^2?:\n";
     cin >> c;
     cout << "\nWhat is the coefficient for x^1?:\n";
     cin >> d;
-    cout << "\nWhat is the coefficient for x^0?:\n";
+    cout << "\nSlam in the last coefficient for x^0?:\n";
     cin >> e;
 }
 
